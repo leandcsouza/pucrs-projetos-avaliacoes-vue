@@ -39,18 +39,21 @@
         </tr>
       </tbody>
     </table>
-    <div
+
+    <button
       style="
         background-color: green;
-        margin: 10px 0px;
+        margin: 50px 0px;
         padding: 10px;
+        width: 100%;
+        border-width: 0px;
         border-radius: 10px;
         color: white;
       "
       @click="atualizaListagem"
     >
-      Buscar resultados
-    </div>
+      <b>Buscar</b> resultados
+    </button>
   </div>
 </template>
 
