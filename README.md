@@ -1,24 +1,19 @@
 # pucrs-frontend
 
-## Project setup
+# Projeto Iniciado com a finalidade de ser uma aplicação front-end para testes no curso Desenvolvimento Fullstack PUCRS
+
+## Para iniciar o projeto, inicie o comando abaixo:
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Após a instalação, compile o projeto:
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
