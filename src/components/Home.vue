@@ -56,12 +56,30 @@ export default {
   margin: 50px;
 }
 
+@media screen and (max-width: 1000px) {
+  .body {
+    background: linear-gradient(45deg, #6c6c6c, #3e3e3e);
+    min-height: 500px;
+    margin: 10px;
+  }
+}
+
 .body .title {
   font-size: 80px;
   font-weight: 300;
   color: white;
   margin: 0px 100px 0px 100px;
   padding: 100px 50px 0px 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .body .title {
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    margin: 0px 10px 0px 10px;
+    padding: 100px 20px 0px 20px;
+  }
 }
 
 .body .subtitle {
@@ -89,6 +107,17 @@ export default {
   z-index: 1;
 }
 
+@media screen and (max-width: 1000px) {
+  .sessao-vendas {
+    width: 100%;
+    display: grid;
+    margin: 0px;
+    min-height: 50vh;
+    position: relative;
+    z-index: 1;
+  }
+}
+
 .sessao-vendas .option1 {
   width: 47%;
   min-height: 50vh;
@@ -101,6 +130,22 @@ export default {
   align-content: center;
   justify-self: center;
   justify-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .sessao-vendas .option1 {
+    width: 97%;
+    min-height: 50vh;
+    background: linear-gradient(45deg, #6c6c6c, #3e3e3e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    justify-items: center;
+  }
 }
 .sessao-vendas .option1:hover {
   background: linear-gradient(45deg, #797979, #737373);
@@ -122,6 +167,22 @@ export default {
   align-content: center;
   justify-self: center;
   justify-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .sessao-vendas .option2 {
+    width: 97%;
+    min-height: 50vh;
+    background: linear-gradient(45deg, #6c6c6c, #3e3e3e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    justify-items: center;
+  }
 }
 
 .sessao-vendas .option2:hover {
@@ -148,11 +209,27 @@ export default {
   font-size: 60px;
 }
 
+@media screen and (max-width: 1000px) {
+  .background-area .title {
+    font-size: 60px;
+  }
+}
+
 .background-logo {
   position: relative;
   z-index: 2;
   opacity: 0.1;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .background-logo {
+    position: relative;
+    z-index: 2;
+    opacity: 0.1;
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 .background {
